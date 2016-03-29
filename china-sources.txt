@@ -1,3 +1,12 @@
+# cd /etc/apt
+# sudo cp sources.list sources.list.backup
+
+# 编辑这个文件，并黏贴下列内容
+# sudo vim sources.list
+
+# 最后，进行源的更新
+# sudo apt-get update , sudo apt-get upgrade
+
 deb http://mirrors.ustc.edu.cn/ubuntu/ precise-updates main restricted
 deb-src http://mirrors.ustc.edu.cn/ubuntu/ precise-updates main restricted
 deb http://mirrors.ustc.edu.cn/ubuntu/ precise universe
