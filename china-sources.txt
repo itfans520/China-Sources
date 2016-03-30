@@ -1,4 +1,4 @@
-# cd /etc/apt
+﻿# cd /etc/apt
 # sudo cp sources.list sources.list.backup
 
 # 编辑这个文件，并黏贴下列内容
@@ -7,6 +7,42 @@
 # 最后，进行源的更新
 # sudo apt-get update , sudo apt-get upgrade
 
+#ali sources
+deb http://mirrors.aliyun.com/ubuntu/ trusty main multiverse restricted universe
+deb http://mirrors.aliyun.com/ubuntu/ trusty-backports main multiverse restricted universe
+deb http://mirrors.aliyun.com/ubuntu/ trusty-proposed main multiverse restricted universe
+deb http://mirrors.aliyun.com/ubuntu/ trusty-security main multiverse restricted universe
+deb http://mirrors.aliyun.com/ubuntu/ trusty-updates main multiverse restricted universe
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty main multiverse restricted universe
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-backports main multiverse restricted universe
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-proposed main multiverse restricted universe
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-security main multiverse restricted universe
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-updates main multiverse restricted universe
+
+#ubuntu china sources
+deb http://cn.archive.ubuntu.com/ubuntu/ trusty main restricted
+deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty main restricted
+deb http://cn.archive.ubuntu.com/ubuntu/ trusty-updates main restricted
+deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty-updates main restricted
+deb http://cn.archive.ubuntu.com/ubuntu/ trusty universe
+deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty universe
+deb http://cn.archive.ubuntu.com/ubuntu/ trusty-updates universe
+deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty-updates universe
+deb http://cn.archive.ubuntu.com/ubuntu/ trusty multiverse
+deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty multiverse
+deb http://cn.archive.ubuntu.com/ubuntu/ trusty-updates multiverse
+deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty-updates multiverse
+deb http://cn.archive.ubuntu.com/ubuntu/ trusty-backports main restricted universe multiverse
+deb-src http://cn.archive.ubuntu.com/ubuntu/ trusty-backports main restricted universe multiverse
+deb http://security.ubuntu.com/ubuntu trusty-security main restricted
+deb-src http://security.ubuntu.com/ubuntu trusty-security main restricted
+deb http://security.ubuntu.com/ubuntu trusty-security universe
+deb-src http://security.ubuntu.com/ubuntu trusty-security universe
+deb http://security.ubuntu.com/ubuntu trusty-security multiverse
+deb-src http://security.ubuntu.com/ubuntu trusty-security multiverse
+
+
+#edu sources
 deb http://mirrors.ustc.edu.cn/ubuntu/ precise-updates main restricted
 deb-src http://mirrors.ustc.edu.cn/ubuntu/ precise-updates main restricted
 deb http://mirrors.ustc.edu.cn/ubuntu/ precise universe
